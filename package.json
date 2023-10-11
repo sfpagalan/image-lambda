@@ -1,0 +1,32 @@
+{
+  "name": "image-lambda",
+  "version": "1.0.0",
+  "description": "Creating an S3 Bucket and Lambda function in AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfpagalan/image-lambda.git"
+  },
+  "author": "Sydney Mae Pagalan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfpagalan/image-lambda/issues"
+  },
+  "homepage": "https://github.com/sfpagalan/image-lambda#readme",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.427.0",
+    "@aws-sdk/client-s3": "^3.427.0",
+    "@aws-sdk/client-sts": "^3.427.0",
+    "aws-sdk": "^2.1472.0",
+    "gm": "^1.25.0",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.8.0"
+  }
+}
